@@ -12,13 +12,15 @@
     margin-right: auto;
 }
 
-nav {
-    padding: 20px ;
-}
 
 nav .container {
+    border: 1px dashed blue;
+    /* test */
+
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    height: 85px;
  }
 
 nav .nav-links-left, nav .nav-links-right {
@@ -38,3 +40,35 @@ nav .login {
     padding: 10px;
 }
 /* fine sezione navabr */
+
+/* sezione header */
+.big-azure{
+    border: 1px dashed red;
+    /* test */
+    
+    justify-content: center;
+    height: 765px;
+    background-color: #B4D0E7;
+}
+
+.title{
+    padding: 50px 530px 0px 370px;
+}
+h1{
+    font-size: 60px;
+}
+
+p{
+    padding: 30px 0px 0px 370px;
+}
+
+.big-azure .text-image{
+    display: flex;
+    justify-content: center;
+}
+
+.big-azure .text-image img{
+    height: 820px;
+    padding: 30px 400px 0px 0px;
+}
+/* fine sezione header */
