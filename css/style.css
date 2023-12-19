@@ -54,23 +54,25 @@ nav .login {
 }
 
 .title{
-    padding: 50px 530px 0px 370px;
+    padding: 30px 530px 0px 370px;
 }
 h1{
     font-size: 60px;
 }
 
-p{
-    padding: 70px 0px 0px 370px;
+#text{
+    padding: 30px 0px 0px 370px;
+    width: 800px;
 }
 
 .big-azure .text-image{
     display: flex;
     justify-content: center;
+    height: 400px;
 }
 
 .big-azure .text-image img{
-    height: 820px;
+    height: 100%;
     padding: 30px 400px 0px 0px;
 }
 /* fine sezione header */
@@ -81,6 +83,7 @@ p{
     border: 3px dashed black;
     /* test */
     padding: 260px 470px 0px 470px;
+    min-width: 1000px;
 }
 
 .ceck-circle{
@@ -92,13 +95,44 @@ p{
 .colunn3{
     justify-content: space-between;
     align-items: center;
+    gap: 50px;
 }
 
 .colunn3 .column-left, .column-central, .column-right{
     border: 4px dashed darkorange;
     height: 500px;
-    width: calc(100% / 3 - 50px);
     /* test */
 }
 
 /* fine sezione con tre colonne all'interno */
+
+
+/* inizio sezione enterprise */
+.team{
+    border: 5px dashed brown;
+    /* test */
+    padding: 50px 470px 0px 470px;
+    text-align: center;
+}
+.enterprise-buttom{
+    border: 5px dashed rgb(42, 165, 71);
+    /* test */
+    display: flex;
+}
+
+.buttom{
+    width: 330px;
+    padding: 16px;
+}
+
+.enterprise{
+    text-align: left;
+    padding: 16px;
+}
+/* fine sezione enterprise */
+
+
+/* inizio sezione foto e testo a destra */
+
+/* fine sezione foto e testoa adestra */
+
