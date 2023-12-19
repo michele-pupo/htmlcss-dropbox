@@ -82,7 +82,7 @@ h1{
 .small3-column{
     border: 3px dashed black;
     /* test */
-    padding: 260px 470px 0px 470px;
+    padding: 60px 470px 0px 470px;
     min-width: 1000px;
 }
 
@@ -133,6 +133,19 @@ h1{
 
 
 /* inizio sezione foto e testo a destra */
+.photo{
+    padding: 50px 470px 0px 470px;
+    display: flex;
+}
 
+
+.photo-text .photo img{
+    width: 620px;
+}
+
+.text{
+    border: 6px dashed rgb(165, 42, 132)
+    /* test */
+}
 /* fine sezione foto e testoa adestra */
 
