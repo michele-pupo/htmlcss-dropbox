@@ -10,6 +10,8 @@
 .container {
     margin-left: auto;
     margin-right: auto;
+    display: flex;
+    flex-direction: row;
 }
 
 
@@ -43,7 +45,7 @@ nav .login {
 
 /* sezione header */
 .big-azure{
-    border: 1px dashed red;
+    border: 2px dashed red;
     /* test */
     
     justify-content: center;
@@ -59,7 +61,7 @@ h1{
 }
 
 p{
-    padding: 30px 0px 0px 370px;
+    padding: 70px 0px 0px 370px;
 }
 
 .big-azure .text-image{
@@ -72,3 +74,31 @@ p{
     padding: 30px 400px 0px 0px;
 }
 /* fine sezione header */
+
+
+/* sezione con tre colonne all'interno */
+.small3-column{
+    border: 3px dashed black;
+    /* test */
+    padding: 260px 470px 0px 470px;
+}
+
+.ceck-circle{
+    display: flex;
+    padding: 20px;
+    gap: 50px;
+}
+
+.colunn3{
+    justify-content: space-between;
+    align-items: center;
+}
+
+.colunn3 .column-left, .column-central, .column-right{
+    border: 4px dashed darkorange;
+    height: 500px;
+    width: calc(100% / 3 - 50px);
+    /* test */
+}
+
+/* fine sezione con tre colonne all'interno */
