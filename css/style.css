@@ -188,6 +188,10 @@ h4{
     padding-bottom: 70px;
 }
 
+#circle-blu{
+    margin-right: 40px;
+}
+
 span{
     font-size: 16px;
 }
@@ -312,6 +316,7 @@ li{
 }
 
 #squares .square-container{
+    position: relative;
     justify-content: space-between;
     display: flex;
     flex-wrap: wrap;
@@ -320,35 +325,21 @@ li{
     height: calc(100vw / 3);
 }
 
+#squares .square-container .green{
+    position: absolute;
+}
+
 #squares .square{
     width: 50%;
     height: 50%;
     border: 1px solid black;
 }
 
-#squares .square img{
-    transform: scale(0.4);
-}
-
-#squares .green img{
-    translate: -15% 70%;
-}
-
-#squares .green{
-    background-color: rgb(162,211,155);
-}
-
-#squares .bordeaux img{
-    translate: -40px 0px;
-}
-
-#squares .bordeaux{
-    background-color: rgb(97,8,43);
-}
-
-#squares .azure img{
-    transform: scale(0.8);
-    translate: 20% 350%;
+#squares .square-container .green img{
+    /* position: absolute; */
+    /* top: 100px;
+    left: -50px; */
+    /* scale: 0.5; */
 }
 
 /* fine sezione quadrati con quadrati all'interno */
