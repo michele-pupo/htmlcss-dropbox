@@ -311,6 +311,26 @@ li{
     border: 1px solid black;
 }
 
+#squares .square img{
+    transform: scale(0.3);
+}
+
+#squares .green img{
+    translate: -15% 70%;
+}
+
+#squares .green{
+    background-color: rgb(162,211,155);
+}
+
+#squares .bordeaux img{
+    translate: -40px 0px;
+}
+
+#squares .bordeaux{
+    background-color: rgb(97,8,43);
+}
+
 /* fine sezione quadrati con quadrati all'interno */
 
 
