@@ -150,9 +150,14 @@ header .row .image img {
     padding: 14px;
 }
 
-.text-plan{
+.text-plan, .text-plan-ceck{
     padding-left: 35px;
     padding-top: 40px;
+    padding-right: 35px;
+}
+
+.text-plan-ceck{
+    padding-bottom: 60px;
 }
 
 span{
@@ -161,9 +166,16 @@ span{
 
 h6{
     margin-bottom: 40px;
+    font-size: 15px;
 }
 
-#business-plans .row .plan .text-plan .fa-check{
+li{
+    font-size: 14px;
+    padding-bottom: 10px;
+}
+
+#business-plans .row .plan .text-plan .fa-check,
+#business-plans .row .plan .text-plan-ceck .fa-check{
     color: rgb(0,94,255);
 }
 
