@@ -223,7 +223,6 @@ li{
 /* get in contact */
 #get-in-contact {
     display: flex;
-    margin-bottom: 180px;
     margin-top: 160px;
 }
 
@@ -258,9 +257,7 @@ li{
 
 /* più operazioni */
 #more-operations {
-    background-color: lightpink;
-
-    /* test */
+    margin-top: 180px;
 }
 
 #more-operations .row  {
@@ -271,13 +268,12 @@ li{
 }
 
 #more-operations .row .col {
-    height: 200px;
-    border: dotted 2px red;
-    /* test */
-
     width: calc(100% / 3 - 50px / 3 * 2);
 }
 
+#more-operations .row .col img{
+    width: 100%;
+}
 /* fine più operazioni */
 
 
