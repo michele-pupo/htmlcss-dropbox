@@ -13,27 +13,20 @@ body{
 
 
 /* sezione navbar */
-.container {
-    margin-left: auto;
-    margin-right: auto;
-    display: flex;
-    flex-direction: row;
-}
-
-
-nav .container {
-    border: 1px dashed blue;
+nav {
+    height: 80px;
     /* test */
 
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 85px;
- }
 
-nav .nav-links-left, nav .nav-links-right {
-    flex-grow: 1;
+    padding: 20px;
+
+    background-color: white;
 }
+
+
 nav .nav-links-left ul, nav .nav-links-right ul{
     display: flex;
     justify-content: center;
@@ -168,6 +161,7 @@ h1{
     justify-content: space-between;
     align-items: center;
     gap: 50px;
+    border: 4px dashed darkorange
 }
 
 .colunn6 .column-1, 
@@ -176,7 +170,7 @@ h1{
 .colunn6 .column-4,
 .colunn6 .column-5,
 .colunn6 .column-6{
-    border: 4px dashed darkorange;
+    /* border: 4px dashed darkorange; */
     height: 250px;
     width: 310px;
     /* test */
