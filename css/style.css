@@ -142,6 +142,11 @@ header .row .image img {
     width: calc(100% / 3 - 50px / 3 * 2)
 }
 
+
+#business-plans .row .plan li{
+    color: black;
+}
+
 /* fine business plans */
 
 
@@ -224,7 +229,7 @@ header .row .image img {
 
 
 /* sezione footer */
-.row {
+footer {
     background-color: black;
 }
 
@@ -243,7 +248,7 @@ ul{
     font-size: 13px;
 }
 
-h4{
+h5{
     color: white;
     font-size: 13px;
 }
@@ -252,8 +257,7 @@ h4{
     padding-top: 40px;
 }
 
-li, h4{
+li, h5{
     padding-top: 8px;
 }
-
 /* fine sezione footer */
