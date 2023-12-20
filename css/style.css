@@ -56,7 +56,6 @@ h1 {
 }
 
 .container {
-    border: dotted 2px black;
     min-height: 100px;
 
     /* test */
@@ -166,6 +165,7 @@ h2{
 
 h4{
     font-size: 20px;
+    margin-bottom: 10px;
 }
 
 .ceck-circle{
@@ -221,23 +221,37 @@ li{
 
 
 /* get in contact */
-
 #get-in-contact {
     display: flex;
+    margin-bottom: 180px;
+    margin-top: 160px;
 }
 
 #get-in-contact .image {
-    height: 200px;
-    border: 1px dashed black;
-    /* test */
     width: 60%;
 }
 
+#get-in-contact .image img{
+    width: 100%;
+}
+
 #get-in-contact .text {
-    height: 200px;
-    border: 1px dashed black;
-    /* test */
     width: 40%;
+    padding: 65px 55px;
+}
+
+.btn-white {
+    display: inline-block;
+    text-align: center;
+    border: 2px solid rgb(85,85,85);
+
+    padding: 10px 16px;
+    margin-top: 35px;
+
+    text-decoration: none;
+
+    color: black;
+    background-color: white;
 }
 /* fine get in contact */
 
