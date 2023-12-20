@@ -5,6 +5,12 @@
 }
 /* reset */
 
+/* fonts */
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+/* fine fonts */
+
 
 /* sezione navbar */
 .container {
@@ -148,4 +154,34 @@ h1{
     /* test */
 }
 /* fine sezione foto e testoa adestra */
+
+
+/* inizio sezione 3 colonne in 2 righe */
+.small-column6{
+    border: 3px dashed black;
+    /* test */
+    padding: 60px 470px 0px 470px;
+}
+
+
+.colunn6{
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+
+.colunn6 .column-1, 
+.colunn6 .column-2, 
+.colunn6 .column-3,
+.colunn6 .column-4,
+.colunn6 .column-5,
+.colunn6 .column-6{
+    border: 4px dashed darkorange;
+    height: 250px;
+    width: 310px;
+    /* test */
+}
+
+/* fine sezione 3 colonne in 2 righe */
+
 
