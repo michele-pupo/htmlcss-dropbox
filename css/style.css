@@ -216,3 +216,44 @@ header .row .image img {
 /* fine sezione quadrati con quadrati all'interno */
 
 
+/* sezione faq */
+
+
+/* fine sezione faq */
+
+
+
+/* sezione footer */
+.row {
+    background-color: black;
+}
+
+.container-footer{
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+ul{
+    list-style-type: none;
+    color: white;
+    font-size: 13px;
+}
+
+h4{
+    color: white;
+    font-size: 13px;
+}
+
+.footer-column{
+    padding-top: 40px;
+}
+
+li, h4{
+    padding-top: 8px;
+}
+
+/* fine sezione footer */
