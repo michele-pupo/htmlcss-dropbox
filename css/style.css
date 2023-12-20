@@ -21,11 +21,11 @@ nav {
     justify-content: space-between;
     align-items: center;
 
+
     padding: 20px;
 
     background-color: white;
 }
-
 
 nav .nav-links-left ul, nav .nav-links-right ul{
     display: flex;
@@ -35,10 +35,24 @@ nav .nav-links-left ul, nav .nav-links-right ul{
     padding: 8px;
 }
 
-nav .login {
-    width: 100px;
-    text-align: right;
-    padding: 10px;
+.nav-links-left ul a,
+.nav-links-right ul a{
+    text-decoration: none;
+    margin-left: 40px;
+    color: rgb(110,110,110);
+    font-size: 16px;
+}
+
+#start{
+    text-align: center;
+
+    padding: 10px 18px;
+    border: transparent;
+
+    text-decoration: none;
+
+    color: white;
+    background-color: #0061ff;
 }
 /* fine sezione navabr */
 
@@ -409,7 +423,7 @@ h5{
 
 .container-footer .footer-column ul hr{
     margin-top: 125px;
-    margin-bottom: 55px;
+    margin-bottom: ;
     color: white;
 }
 /* fine sezione footer */
