@@ -135,12 +135,38 @@ header .row .image img {
 }
 
 #business-plans .row .plan {
-    border: dashed 1px red;
+    /* border: dashed 1px red; */
     min-height: 100px;
+    border: solid 1px grey;
+    
     /* test */
     
     width: calc(100% / 3 - 50px / 3 * 2)
 }
+
+.icon-text{
+    text-align: center;
+    border: solid 1px grey;
+    padding: 14px;
+}
+
+.text-plan{
+    padding-left: 35px;
+    padding-top: 40px;
+}
+
+span{
+    font-size: 16px;
+}
+
+h6{
+    margin-bottom: 40px;
+}
+
+#business-plans .row .plan .text-plan .fa-check{
+    color: rgb(0,94,255);
+}
+
 
 
 #business-plans .row .plan li{
