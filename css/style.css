@@ -77,14 +77,16 @@ h1 {
     background-color: #0061ff;
 }
 
+a{
+    color: rgb(0,0,240);
+}
+
 /* fine elementi comuni */
 
 
 /* header */
 header {
     background-color: #b4d0e7;
-
-    /* padding-top: 100px; */
 
     margin-bottom: 150px;
 }
@@ -277,8 +279,19 @@ li{
 /* fine più operazioni */
 
 
+/* inizio sezione link clienti */
+#link-client{
+    margin-top: 225px;
+    max-width: 610px;
+}
+
+/* fine sezione link clienti */
+
+
+
 /* sezione quadrati con quadrati all'interno */
 #squares{
+    padding-top: 160px;
     display: flex;
     justify-content: space-between;
 }
