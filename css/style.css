@@ -399,14 +399,17 @@ ul{
 
 h5{
     color: white;
-    font-size: 13px;
+    font-size: 20px;
+    margin-bottom: 20px;
 }
 
 .footer-column{
-    padding-top: 40px;
+    margin-top: 115px;
 }
 
-li, h5{
-    padding-top: 8px;
+.container-footer .footer-column ul hr{
+    margin-top: 125px;
+    margin-bottom: 55px;
+    color: white;
 }
 /* fine sezione footer */
