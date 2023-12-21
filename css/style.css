@@ -331,6 +331,8 @@ li{
 #squares .square{
     width: 50%;
     height: 50%;
+    border-width: 16px;
+    transition: border-width .5s ease;
 }
 
 #squares .square-container .square{
@@ -362,7 +364,6 @@ li{
 
 #squares .green{
     background-color: rgb(162,211,155);
-    border: 15px solid rgb(209,233,205)
 }
 
 #squares .bordeaux{
@@ -393,8 +394,36 @@ li{
     background-color: rgb(255,216,48);
 }
 
-.squares .center{
+#squares .square-container-center{
     background-color: rgb(245,245,245);
+    padding: 48px;
+    height: 100%;
+    overflow-y: auto;
+}
+
+#squares .square-container-center img{
+    max-width: 240px;
+    margin-bottom: 42px;
+}
+
+#squares .square-container-center hr{
+    width: 20%;
+    border-style: solid;
+    border-color: gray;
+    margin-bottom: 42px;
+}
+
+#squares .square-container-center p{
+    margin-bottom: 55px;
+    font-size: 13px;
+}
+
+#squares .square-container-center span{
+    font-size: 13px;
+}
+
+#squares .square:hover{
+    border: 20px solid rgba(255, 255, 255, 0.5);;
 }
 
 /* fine sezione quadrati con quadrati all'interno */
@@ -402,8 +431,8 @@ li{
 
 /* inizio sezione prova gratuita */
 .trial{
-    margin-top: 140px;
-    margin-bottom: 80px;
+    padding-top: 60px;
+    padding-bottom: 30px;
     background-color: rgb(180,208,231);
     display: flex;
     justify-content: center
