@@ -232,6 +232,11 @@ h4{
     margin-bottom: 10px;
 }
 
+.text-plan p, .text-plan-ceck p{
+    margin-left: 20px;
+    margin-top: -20px;
+}
+
 span{
     font-size: 16px;
 }
@@ -279,6 +284,10 @@ h6{
 
 .text-plan-buttom{
     margin: 32px;
+}
+
+.text-buttom .text-plan #solution{
+    margin-top: 60px;
 }
 /* fine sezione enterprise */
 
