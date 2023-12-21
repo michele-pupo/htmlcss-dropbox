@@ -90,11 +90,18 @@
 
 
     <div class="container">
-        <section>
+        <section id="plans">
             <h2>Trova il piano business che fa per te</h2>
-            <div class="ceck-circle">
-                <span id="circle-blu"><i class="fa-regular fa-circle"></i> Fatturazione mensile</span>
-                <span><i class="fa-regular fa-circle"></i> Fatturazione annuale</span>
+            <div class="radio-buttons-row">
+                <div class="radio-button">
+                    <input id="radio-button-month" name="radio-button" type="radio">
+                    <label for="radio-button-month">Fatturazione mensile</label>
+                </div>
+
+                <div class="radio-button">
+                    <input id="radio-button-year" name="radio-button" type="radio">
+                    <label for="radio-button-year">Fatturazione annuale</label>
+                </div>
             </div>
         </section>
 
@@ -399,7 +406,7 @@
         <div class="trial row">
             <h2 id="trial-text">Porta Dropbox Business <br>
                 nella tua azienda.</h2>
-            <button id="trial"><strong>Inizia la prova gratuita</strong></button>
+            <a href="#" class="btn-trial">Inizia la tua prova gratuita</a>
         </div>
     </section>
     <!-- fine sezione prova gratuita -->
