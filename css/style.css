@@ -510,7 +510,6 @@ h3{
 /* fine sezione faq */
 
 
-
 /* sezione footer */
 footer {
     background-color: black;
@@ -529,6 +528,10 @@ ul{
     list-style-type: none;
     color: white;
     font-size: 13px;
+}
+
+.container-footer .footer-column ul li:hover{
+    text-decoration: underline;
 }
 
 h5{
