@@ -206,11 +206,14 @@ li{
     padding-bottom: 10px;
 }
 
+.text-plan hr{
+    width: 25%;
+}
+
 #business-plans .row .plan .text-plan .fa-check,
 #business-plans .row .plan .text-plan-ceck .fa-check{
     color: rgb(0,94,255);
 }
-
 
 
 #business-plans .row .plan li{
@@ -328,7 +331,6 @@ li{
 #squares .square{
     width: 50%;
     height: 50%;
-    border: 1px solid black;
 }
 
 #squares .square-container .square{
@@ -341,8 +343,20 @@ li{
 }
 
 #squares .square-container .square img{
-    width: 60%;
+    width: 80%;
     filter: invert(1)
+}
+
+#squares .center .center-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    height: 30%;
+}
+
+#squares .center .center-img img{
+    width: 80%;
 }
 
 
@@ -406,6 +420,7 @@ li{
 
 #trial{
     margin-left: 300px;
+    margin-top: -100px;
     padding: 12px 40px;
     font-size: 16px;
     border: none;
@@ -461,7 +476,7 @@ h5{
 
 .container-footer .footer-column ul hr{
     margin-top: 125px;
-    margin-bottom: ;
+    margin-bottom: 53px;
     color: white;
 }
 /* fine sezione footer */
