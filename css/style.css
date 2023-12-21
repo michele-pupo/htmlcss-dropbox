@@ -57,6 +57,18 @@ nav .nav-links-left ul, nav .nav-links-right ul{
     color: white;
     background-color: #0061ff;
 }
+
+.nav-links-left li a:hover{
+    padding: 15px 5px;
+    border-radius: 8px;
+    background-color: rgba(128, 128, 128, 0.3)
+}
+
+.nav-links-right li a:hover{
+    padding: 15px 5px;
+    border-radius: 8px;
+    background-color: rgba(128, 128, 128, 0.3)
+}
 /* fine sezione navabr */
 
 h1 {
@@ -206,6 +218,7 @@ h6{
 
 li{
     font-size: 14px;
+    margin-top: 15px;
 }
 
 .text-plan hr{
