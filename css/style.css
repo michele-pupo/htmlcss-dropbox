@@ -27,6 +27,8 @@ nav {
     background-color: white;
 }
 
+
+
 nav .nav-links-left ul, nav .nav-links-right ul{
     display: flex;
     justify-content: center;
@@ -94,7 +96,6 @@ h1 {
 a{
     color: rgb(0,0,240);
 }
-
 /* fine elementi comuni */
 
 
@@ -192,14 +193,6 @@ h4{
     margin-bottom: 10px;
 }
 
-.ceck-circle{
-    padding-bottom: 70px;
-}
-
-#circle-blu{
-    margin-right: 40px;
-}
-
 span{
     font-size: 16px;
 }
@@ -227,7 +220,6 @@ li{
 #business-plans .row .plan li{
     color: black;
 }
-
 /* fine business plans */
 
 
@@ -314,7 +306,6 @@ li{
     margin-top: 225px;
     max-width: 610px;
 }
-
 /* fine sezione link clienti */
 
 
@@ -433,7 +424,6 @@ li{
 #squares .square:hover{
     border: 20px solid rgba(255, 255, 255, 0.5);;
 }
-
 /* fine sezione quadrati con quadrati all'interno */
 
 
@@ -468,7 +458,6 @@ li{
     color: black;
     background-color: white;
 }
-
 /* fine sezione prova gratuita */
 
 
@@ -483,6 +472,25 @@ li{
     margin: 45px 0px;
 }
 
+h3{
+    display: inline-block;
+}
+
+.faq .request-answer .request .fa-solid.fa-angle-up{
+    margin-left: 300px;
+}
+
+.faq .request-answer .answer{
+    display: none;
+}
+
+.faq .request-answer:active .answer{
+    display: block;
+}
+
+.faq .request-answer:active .request h3 i{
+    transform: rotate(180deg);
+}
 /* fine sezione faq */
 
 
