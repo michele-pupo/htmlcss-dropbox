@@ -331,29 +331,52 @@ li{
     border: 1px solid black;
 }
 
-#squares .square-container .green img{
-    margin-top: 120px;
-    margin-left: 60px;
-    width: 50%;
+#squares .square-container .square{
+    display: flex;
     align-items: center;
     justify-content: center;
+    padding: 50px;
+    width: 50%;
+    height: 50%;
+}
+
+#squares .square-container .square img{
+    width: 60%;
+    filter: invert(1)
 }
 
 
 #squares .green{
     background-color: rgb(162,211,155);
-}
-
-#squares .square-container .bordeaux img{
-    margin-top: 100px;
-    margin-left: 70px;
-    width: 50%;
-    align-items: center;
-    justify-content: center;
+    border: 15px solid rgb(209,233,205)
 }
 
 #squares .bordeaux{
     background-color: rgb(97,8,43);
+}
+
+#squares .azure1{
+    background-color: rgb(0,147,206);
+}
+
+#squares .red1{
+    background-color: rgb(255,28,28);
+}
+
+#squares .red2{
+    background-color: rgb(213,0,31);
+}
+
+#squares .azure2{
+    background-color: rgb(180,208,231);
+}
+
+#squares .blu{
+    background-color: rgb(13,36,129);
+}
+
+#squares .yellow{
+    background-color: rgb(255,216,48);
 }
 
 .squares .center{
