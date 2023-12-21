@@ -5,11 +5,11 @@
 }
 /* reset */
 
-/* fonts */
+/* Google fonts */
 body{
     font-family: 'Open Sans', sans-serif;
 }
-/* fine fonts */
+/* fine Google fonts */
 
 
 /* sezione navbar */
@@ -31,6 +31,9 @@ nav {
     background-color: white;
 }
 
+.nav-link{
+    margin-top: 5px;
+}
 
 nav .nav-links-left ul, nav .nav-links-right ul{
     display: flex;
@@ -49,15 +52,14 @@ nav .nav-links-left ul, nav .nav-links-right ul{
 }
 
 #start{
-    text-align: center;
+    margin-left: 15px;
 
     padding: 10px 18px;
     border: transparent;
 
     text-decoration: none;
-
     color: white;
-    background-color: #0061ff;
+    background-color: rgb(0,97,255);
 }
 
 #start:hover{
@@ -121,7 +123,11 @@ a{
     color: rgb(0,0,240);
 }
 
-a:hover{
+.text-plan #link:hover{
+    color: blueviolet;
+}
+
+#link-client a:hover{
     color: blueviolet;
 }
 /* fine elementi comuni */
@@ -211,6 +217,11 @@ header .row .image img {
     padding-bottom: 60px;
 }
 
+.text-plan-ceck li{
+    font-size: 14px;
+    margin-top: 15px;
+}
+
 h2{
     margin-bottom: 70px;
     font-size: 38px;
@@ -230,7 +241,7 @@ h6{
     font-size: 15px;
 }
 
-li{
+.text-plan li{
     font-size: 14px;
     margin-top: 15px;
 }
@@ -533,6 +544,7 @@ h3{
 /* sezione footer */
 footer {
     background-color: black;
+    padding-bottom: 40px;
 }
 
 .container-footer{
@@ -561,7 +573,12 @@ h5{
 }
 
 .footer-column{
-    margin-top: 115px;
+    margin-top: 70px;
+}
+
+.footer-column li{
+    font-size: 14px;
+    margin-top: 15px;
 }
 
 .container-footer .footer-column ul hr{
