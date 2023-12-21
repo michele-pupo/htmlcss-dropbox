@@ -60,6 +60,10 @@ nav .nav-links-left ul, nav .nav-links-right ul{
     background-color: #0061ff;
 }
 
+#start:hover{
+    background-color: rgb(8,23,83);
+}
+
 .nav-links-left li a:hover{
     padding: 15px 5px;
     border-radius: 8px;
@@ -106,7 +110,11 @@ h1 {
     text-decoration: none;
 
     color: white;
-    background-color: #0061ff;
+    background-color: rgb(0,97,255);
+}
+
+.btn:hover{
+    background-color: rgb(8,23,83);
 }
 
 a{
@@ -292,6 +300,10 @@ li{
     color: black;
     background-color: white;
 }
+
+.btn-white:hover{
+    background-color: rgba(85,85,85,0.4);
+}
 /* fine get in contact */
 
 
@@ -473,6 +485,10 @@ li{
 
     color: black;
     background-color: white;
+}
+
+.btn-trial:hover{
+    background-color: rgba(85,85,85,0.4);
 }
 /* fine sezione prova gratuita */
 
